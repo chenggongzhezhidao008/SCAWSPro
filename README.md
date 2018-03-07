@@ -1,2 +1,0 @@
-# SCAWSPro
-weather system opensource
