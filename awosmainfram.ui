@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AwosMainFram</class>
+ <widget class="QWidget" name="AwosMainFram">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>716</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AwosMainFram</string>
+  </property>
+  <widget class="HidePushbutton" name="widget_updateSub" native="true">
+   <property name="geometry">
+    <rect>
+     <x>901</x>
+     <y>652</y>
+     <width>120</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="HidePushbutton" name="widget_updateConfig" native="true">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>652</y>
+     <width>120</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="StateLabel" name="widget_temp_state" native="true">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>660</y>
+     <width>111</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="StateLabel" name="widget_Hum_state" native="true">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>660</y>
+     <width>111</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="StateLabel" name="widget_wind_state" native="true">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>660</y>
+     <width>111</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="StateLabel" name="widget_RVR_state" native="true">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>660</y>
+     <width>111</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="TEXTLabel" name="widget_State" native="true">
+   <property name="geometry">
+    <rect>
+     <x>476</x>
+     <y>660</y>
+     <width>70</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="TEXTLabel" name="widget_temperature" native="true">
+   <property name="geometry">
+    <rect>
+     <x>372</x>
+     <y>600</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="TEXTLabel" name="widget_Humidity" native="true">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>600</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>96</y>
+     <width>170</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>北京视程科技有限公司</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>120</y>
+     <width>90</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>VRMNG v1.0</string>
+   </property>
+  </widget>
+  <widget class="TEXTLabel" name="widget_HumValue" native="true">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>570</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="TEXTLabel" name="widget_TempValue" native="true">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>570</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="TEXTLabel" name="widget_dewPoint" native="true">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>600</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="TEXTLabel" name="widget_dewPointValue" native="true">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>570</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>530</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DDDDDD</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>HidePushbutton</class>
+   <extends>QWidget</extends>
+   <header>UIOtherCom/hidepushbutton.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StateLabel</class>
+   <extends>QWidget</extends>
+   <header>UiStateLabel/statelabel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TEXTLabel</class>
+   <extends>QWidget</extends>
+   <header location="global">UITestLabel/textlabel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
